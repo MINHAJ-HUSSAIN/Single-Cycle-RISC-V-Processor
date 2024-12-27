@@ -1,5 +1,4 @@
-# Single-Cycle-RISC-V-Processor
-Building a Single-Cycle RISC-V Processor
+#Building a Single-Cycle RISC-V Processor
 
 This guide explores how to develop a RISC-V processor using a single-cycle architecture. Each instruction is executed within a single clock cycle, and the design integrates Control and Status Registers (CSR) for robust system-level control and seamless exception handling. The CSR trap mechanism is hardwired for reliable exception management.
 
