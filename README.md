@@ -22,19 +22,19 @@ Use ModelSim, Quartus, or Vivado to compile and simulate the design.
 
 Run the following commands to compile, simulate, and analyze the processor:
 
-###Compile SystemVerilog Design Files:
+### Compile SystemVerilog Design Files:
 
 vlog -work work *.sv
 
-###Simulate the Testbench:
+### Simulate the Testbench:
 
 vsim -c processor_testbench -do "run -all"
 
-###View Waveforms:
+### View Waveforms:
 
 gtkwave output_waveform.vcd
 
-#Workflow Overview
+# Workflow Overview
 
 1. Setting Up the Project
 
@@ -64,13 +64,13 @@ Add new instructions to extend the processor’s functionality.
 
 Test CSR features by simulating exception scenarios and analyzing the response.
 
-#Key Features
+# Key Features
 
-###Single-Cycle Execution:
+### Single-Cycle Execution:
 Simplifies control logic by completing each instruction in one clock cycle.
 
-###CSR Integration:
+### CSR Integration:
 Provides robust system control and efficient exception management with a hardwired mechanism.
 
-###Customizable Design:
+### Customizable Design:
 Expand the processor by implementing additional RISC-V instructions and testing advanced features.
