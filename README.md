@@ -1,24 +1,24 @@
-#Single-Cycle RISC-V Processor
+# Single-Cycle RISC-V Processor
 
 This repository provides a step-by-step guide to developing a single-cycle RISC-V processor. The processor executes each instruction within a single clock cycle and integrates Control and Status Registers (CSR) for efficient system-level control and exception management. The CSR trap mechanism is hardwired to ensure reliable exception handling.
 
-#Tools and Requirements
+# Tools and Requirements
 
 Before starting, ensure the following tools are installed:
 
-###SystemVerilog:
+### SystemVerilog:
 A hardware description language for designing the processor.
 
-###Code Editor (e.g., VS Code):
+### Code Editor (e.g., VS Code):
 Recommended for managing code files. Install SystemVerilog extensions for improved functionality.
 
-###GTKWave:
+### GTKWave:
 For waveform visualization during simulations. Some features may require Multisim.
 
-#Simulation Tools:
+# Simulation Tools:
 Use ModelSim, Quartus, or Vivado to compile and simulate the design.
 
-#Commands for Compilation and Simulation
+# Commands for Compilation and Simulation
 
 Run the following commands to compile, simulate, and analyze the processor:
 
