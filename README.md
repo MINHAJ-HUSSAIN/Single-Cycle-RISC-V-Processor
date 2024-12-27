@@ -35,33 +35,19 @@ vsim -c processor_testbench -do "run -all"
 gtkwave output_waveform.vcd
 
 # Workflow Overview
-
-1. Setting Up the Project
-
+### Setting Up the Project
 Open the project folder using your code editor (e.g., VS Code).
-
 Install SystemVerilog extensions for enhanced editing capabilities.
-
-2. Compiling the Design
-
+### Compiling the Design
 Use a simulator such as ModelSim or Vivado to compile the SystemVerilog files.
-
 Ensure that all dependencies are resolved before proceeding.
-
-3. Running Simulations
-
+### Running Simulations
 Execute the testbench to verify the processor’s behavior in various scenarios.
-
-4. Analyzing Results
-
+### Analyzing Results
 Load the .vcd file into GTKWave to observe signal transitions and debug the design.
-
 Use Multisim if additional debugging features are required.
-
-5. Enhancing the Processor
-
+### Enhancing the Processor
 Add new instructions to extend the processor’s functionality.
-
 Test CSR features by simulating exception scenarios and analyzing the response.
 
 # Key Features
